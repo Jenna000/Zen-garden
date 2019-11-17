@@ -349,6 +349,7 @@ template {
   width: 100%;
   display: block;
   text-align: center;
+  margin-bottom: 50px;
 }
 .intro h1 {
   color: #061826;
@@ -359,37 +360,127 @@ template {
   color: #061826;
   font-family: "Lora", serif;
   font-size: 30px;
+  text-align: center;
 }
 .intro .summary {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size: 16px;
   color: #061826;
   font-family: "Lora", serif;
   text-align: center;
 }
 .intro a {
-  color: orangered;
+  color: white;
   font-family: "Lora", serif;
   font-size: 16px;
+  background-color: orangered;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.intro a:hover {
+  background-color: #ffaf19;
+  color: orangered;
 }
 .intro .preamble {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size: 16px;
   color: #061826;
   font-family: "Lora", serif;
   text-align: center;
 }
 .intro .preamble abbr {
-  color: orangered;
+  color: #ffaf19;
   font-family: "Lora", serif;
   font-size: 16px;
+}
+.intro .preamble abbr:hover {
+  color: #1e1e1e;
 }
 .intro .preamble h3 {
   color: #061826;
   font-family: "Lora", serif;
   font-size: 30px;
+  text-align: center;
+}
+
+.explanation h3, .benefits h3, .requirements h3, .participation h3 {
+  color: #061826;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  text-align: center;
+}
+.explanation abbr, .benefits abbr, .requirements abbr, .participation abbr {
+  color: #ffaf19;
+  font-family: "Lora", serif;
+  font-size: 16px;
+}
+.explanation abbr:hover, .benefits abbr:hover, .requirements abbr:hover, .participation abbr:hover {
+  color: #1e1e1e;
+}
+.explanation p, .benefits p, .requirements p, .participation p {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 16px;
+  color: #061826;
+  font-family: "Lora", serif;
+  text-align: center;
+}
+.explanation a, .benefits a, .requirements a, .participation a {
+  color: white;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  background-color: orangered;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.explanation a:hover, .benefits a:hover, .requirements a:hover, .participation a:hover {
+  background-color: #ffaf19;
+  color: orangered;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 100px;
+}
+footer a {
+  color: white;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  background-color: orangered;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer a:hover {
+  background-color: #ffaf19;
+  color: orangered;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper h3 {
+  color: #061826;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  text-align: center;
+}
+.wrapper a {
+  color: #ffaf19;
+  font-family: "Lora", serif;
+  font-size: 16px;
+}
+.wrapper a:hover {
+  color: #1e1e1e;
 }
 
 /*# sourceMappingURL=style.css.map */
