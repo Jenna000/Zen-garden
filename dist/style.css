@@ -360,5 +360,36 @@ template {
   font-family: "Lora", serif;
   font-size: 30px;
 }
+.intro .summary {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 16px;
+  color: #061826;
+  font-family: "Lora", serif;
+  text-align: center;
+}
+.intro a {
+  color: orangered;
+  font-family: "Lora", serif;
+  font-size: 16px;
+}
+.intro .preamble {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 16px;
+  color: #061826;
+  font-family: "Lora", serif;
+  text-align: center;
+}
+.intro .preamble abbr {
+  color: orangered;
+  font-family: "Lora", serif;
+  font-size: 16px;
+}
+.intro .preamble h3 {
+  color: #061826;
+  font-family: "Lora", serif;
+  font-size: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -8,13 +8,18 @@
     font-family: $secondtypo;
     font-size: 30px;
 }
-@mixin btn {
-    color: $white;
+@mixin orangebtn {
+    color: $ponctuation;
     font-family: $secondtypo;
-    font-size: 15px;
-    height: 30px;
-    width: 75px;
-    background-color: orangered;
-    border-radius: 100%;
+    font-size: 16px;
     
+    
+}
+@mixin p {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 16px;
+    color: $darkblue;
+    font-family: $secondtypo;
+    text-align: center; 
 }
