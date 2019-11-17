@@ -2,3 +2,22 @@
 @import "variables.scss";
 @import "normalize.scss";
 
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    header{
+        background-image: url(../img/img1_autumn.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    h1{
+        @include titleH1;   
+    }
+    h2{
+        @include titleH2;
+    }
+}
